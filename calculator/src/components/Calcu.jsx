@@ -29,13 +29,13 @@ function Calcu() {
 
   return (
     <div>
-      <div className='h-screen flex items-center justify-center '>
-        <div className='items-center bg-zinc-600 w-64 h-84 justify-center p-3 rounded-lg shadow-lg shadow-yellow-950'>
+      <div className='h-screen flex items-center justify-center'>
+        <div className='items-center bg-zinc-600 w-64 h-84 justify-center p-3 rounded-lg shadow-lg shadow-yellow-950 sm:w-64'>
         <div>
           <input className="p-6 rounded-lg bg-gray-200 shadow-lg shadow-yellow-950" type='text' value={input} readOnly />
         </div>
-        <div className='mt-5 '>
-          <div className='flex space-x-4'>
+        <div className='mt-5'>
+          <div className='flex space-x-4 '>
             <button className='bg-yellow-600 rounded-full w-20 h-8 p-2  flex items-center justify-center font-bold  shadow-lg shadow-yellow-950' onClick={handleClear}>C</button>
             <button className='bg-yellow-600 rounded-full w-20 h-8 p-2  flex items-center justify-center font-bold shadow-lg shadow-yellow-950 ' onClick={() => { handleClick('%') }}>%</button>
             <button className='bg-yellow-600 rounded-full w-20 h-8 p-2  flex items-center justify-center font-bold shadow-lg shadow-yellow-950' onClick={() => { handleClick('(') }}>(</button>
