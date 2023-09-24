@@ -30,7 +30,7 @@ function Calcu() {
   return (
     <div>
       <div className='h-screen flex items-center justify-center'>
-        <div className='items-center bg-zinc-600 w-64 h-84 justify-center p-3 rounded-lg shadow-lg shadow-yellow-950 sm:w-64'>
+        <div className='items-center bg-zinc-600 w-64 h-84 justify-center p-3 rounded-lg shadow-lg shadow-yellow-950 text-center sm:text-left'>
         <div>
           <input className="p-6 rounded-lg bg-gray-200 shadow-lg shadow-yellow-950" type='text' value={input} readOnly />
         </div>
